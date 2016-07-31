@@ -11,6 +11,9 @@
 		D17072631D4D25CA00171106 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17072621D4D25CA00171106 /* ViewController.swift */; };
 		D17072651D4D25CA00171106 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D17072641D4D25CA00171106 /* Assets.xcassets */; };
 		D17072681D4D25CA00171106 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D17072661D4D25CA00171106 /* Main.storyboard */; };
+		D17072701D4D262000171106 /* MyScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D170726F1D4D262000171106 /* MyScrollView.swift */; };
+		D17072731D4D2A2B00171106 /* MyItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17072711D4D2A2B00171106 /* MyItem.swift */; };
+		D17072741D4D2A2B00171106 /* MyItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = D17072721D4D2A2B00171106 /* MyItem.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		D17072641D4D25CA00171106 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D17072671D4D25CA00171106 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D17072691D4D25CA00171106 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D170726F1D4D262000171106 /* MyScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyScrollView.swift; sourceTree = "<group>"; };
+		D17072711D4D2A2B00171106 /* MyItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyItem.swift; sourceTree = "<group>"; };
+		D17072721D4D2A2B00171106 /* MyItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyItem.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +60,12 @@
 			children = (
 				D17072601D4D25CA00171106 /* AppDelegate.swift */,
 				D17072621D4D25CA00171106 /* ViewController.swift */,
+				D170726F1D4D262000171106 /* MyScrollView.swift */,
 				D17072641D4D25CA00171106 /* Assets.xcassets */,
 				D17072661D4D25CA00171106 /* Main.storyboard */,
 				D17072691D4D25CA00171106 /* Info.plist */,
+				D17072711D4D2A2B00171106 /* MyItem.swift */,
+				D17072721D4D2A2B00171106 /* MyItem.xib */,
 			);
 			path = ScrollViewGesture;
 			sourceTree = "<group>";
@@ -121,6 +130,7 @@
 			files = (
 				D17072651D4D25CA00171106 /* Assets.xcassets in Resources */,
 				D17072681D4D25CA00171106 /* Main.storyboard in Resources */,
+				D17072741D4D2A2B00171106 /* MyItem.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D17072731D4D2A2B00171106 /* MyItem.swift in Sources */,
 				D17072631D4D25CA00171106 /* ViewController.swift in Sources */,
+				D17072701D4D262000171106 /* MyScrollView.swift in Sources */,
 				D17072611D4D25CA00171106 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
